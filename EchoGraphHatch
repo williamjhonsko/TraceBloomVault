@@ -1,0 +1,22 @@
+
+---
+
+**EchoGraphHatch**  
+**Description:**  
+Transforms system logs into graph structures to analyze cause-effect paths and frequency.
+
+```markdown
+# EchoGraphHatch – Log-to-Graph Converter
+
+EchoGraphHatch maps log events to causal graphs, making system behavior interpretable through graph traversal.
+
+## Features
+- Graph construction from logs
+- Node/edge weight tuning
+- Export to GEXF / GraphML
+
+## Usage
+```bash
+git clone https://github.com/your-username/EchoGraphHatch.git
+cd EchoGraphHatch
+python hatch.py
