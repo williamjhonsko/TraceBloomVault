@@ -1,0 +1,22 @@
+
+---
+
+**FlowStackFlare**  
+**Description:**  
+Reconstructs and visualizes backend request stacks in flamegraph format from real-time API telemetry.
+
+```markdown
+# FlowStackFlare – Flamegraph Generator for APIs
+
+FlowStackFlare captures live request traces and assembles them into collapsible flamegraphs for latency analysis.
+
+## Features
+- Converts trace data to flamegraphs
+- Real-time updates from OpenTelemetry
+- HTML export with interaction
+
+## Usage
+```bash
+git clone https://github.com/your-username/FlowStackFlare.git
+cd FlowStackFlare
+python flamegraph.py
