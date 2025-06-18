@@ -1,0 +1,22 @@
+
+---
+
+**SynthEchoFabric**  
+**Description:**  
+Produces synthetic logs mimicking system behaviors across time, components, and severity levels.
+
+```markdown
+# SynthEchoFabric – Realistic Synthetic Log Generator
+
+SynthEchoFabric generates realistic log data across systems and timelines, useful for load testing and pipeline QA.
+
+## Features
+- Configurable patterns, severity, and burstiness
+- Supports multiple output sinks
+- CLI or config-driven mode
+
+## Usage
+```bash
+git clone https://github.com/your-username/SynthEchoFabric.git
+cd SynthEchoFabric
+python fabricate.py
